@@ -1,0 +1,27 @@
+/* Final pass after theme overrides — hero copy stays centered on every build */
+.hero {
+    text-align: center;
+}
+
+.hero .hero-content {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.hero .hero-actions {
+    justify-content: center;
+}
+
+.hero .hero-subtitle {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero--split .hero-content {
+    text-align: center;
+}
+
+.hero--split .hero-actions {
+    justify-content: center;
+}
